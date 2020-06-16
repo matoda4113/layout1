@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+header {
+    width: 100%;
+    max-width: 100%;
+    height: 70px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    font-size: 3em;
+    margin: auto;
+    padding: 10px;
+}
+
+section {
+    
+    padding: 8px;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+.sectiongroup1 div {
+    width: 32%;
+    float: left;
+    
+    
+}
+
+.sectiongroup1 div::after {
+    clear: both;
+}
+
+
+.sectiongroup2 div {
+    width: 32%;
+    float: left;
+}
+
+.sectiongroup2 div::after {
+    clear: both;
+}
+
+.imgroup div {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.imgroup{
+
+    padding: 0px;
+    margin: 10px;
+    box-shadow: -1px 1px 10px gray;
+}
+
+.imgroup p {
+    font-size: 2em;
+    margin: 10px 0;
+    
+}
